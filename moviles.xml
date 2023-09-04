@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="119dp"
+        android:layout_height="48dp"
+        android:text="+"
+        app:rippleColor="#8E7D7D"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="155dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="115dp"
+        android:layout_height="47dp"
+        android:text="-"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="228dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="115dp"
+        android:layout_height="47dp"
+        android:text="x"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="307dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="112dp"
+        android:layout_height="46dp"
+        android:text="/"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="382dp" />
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="261dp"
+        android:background="#65AFB8"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="468dp"
+        tools:visibility="visible">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="141dp"
+            android:layout_height="55dp"
+            android:text="RESULTADO:"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="169dp"
+            android:layout_height="wrap_content"
+            android:background="#757474"
+            android:text="CALCULAR"
+            app:iconTint="#777373"
+            app:strokeColor="#776D6D"
+            tools:visibility="visible" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="153dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"></LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
